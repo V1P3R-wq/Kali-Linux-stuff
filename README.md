@@ -1,0 +1,29 @@
+# Kali-Linux-stuff
+My collection of scripts and useful stuff.
+## Managed_restart.sh
+### This script re-enables all of the stuff <b>Monitor_mode.sh</b>
+Also, edit the script and change wlan0mon to what your card name is.
+-----
+chmod +x managed_restart.sh
+./managed_restart.sh
+-----
+## Monitor_mode.sh
+### This script disables all of the stuff <b>Managed_restart.sh</b> is meant to do.
+Also, edit the script and change wlan0 to what your card name is.
+Use this by running;
+-----
+chmod +x monitor_mode.sh
+./monitor_mode.sh
+-----
+## Using portscanner.py
+### Use this script by running the following;
+-----
+chmod +x portscanner.py
+./portscanner.py <ip>
+-----
+## Using startspider.sh
+### Use this by running the following command;
+-----
+chmod +x startspider.sh
+./startspider.sh
+-----
